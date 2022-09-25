@@ -1,0 +1,34 @@
+.connected {
+  color: green;
+}
+
+.disconnected {
+  color: red;
+}
+
+.pose {
+  margin: 1rem;
+}
+
+.pose strong {
+  font-weight: bold;
+  display: block;
+}
+.statusContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+  align-self: flex-end;
+}
+@media only screen and (max-width: 800px) {
+  .statusContainer {
+    align-self: center;
+  }
+}
+
+.pausedButton {
+  background-color: green;
+}
+
+.unpausedButton {
+  background-color: red;
+}

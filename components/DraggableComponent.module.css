@@ -1,0 +1,14 @@
+.robotIndicator {
+  width: 1.5vw;
+  height: 1.5vw;
+  border-radius: 50%;
+  background: #ff9900;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+  transform: translate(50%, -50%);
+  position: absolute;
+}

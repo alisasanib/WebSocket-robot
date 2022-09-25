@@ -1,0 +1,12 @@
+.formContainer {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.inputPose {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.submitButton {
+  background-color: green;
+}

@@ -1,0 +1,10 @@
+.imageContainer {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+@media only screen and (max-width: 800px) {
+  .imageContainer {
+    width: 80%;
+  }
+}
